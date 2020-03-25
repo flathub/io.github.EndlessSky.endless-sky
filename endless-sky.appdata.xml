@@ -42,6 +42,122 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.9.11" date="2020-02-24" type="development" urgency="low">
+      <description>
+        <p>Big changes:</p>
+        <ul>
+            <li>Added the Graveyard, a region near the Ember Waste, and its inhabitants. (@beccabunny)</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+            <li>Typo fixes. (@alextd, @Amazinite, @Anarchist2, @Arachi-lover, @Darcman99, @Gods-Righthand, @Jozephi-Krakowskije, @Mageking17, @MCOfficer, @oo13, @otsohelos, @perey, @petervdmeer, @tehhowch, @Waffleship, @wjp, @Zitchas)</li>
+            <li>The Quicksilver (Mark II) variant no longer has the exact same outfits as the base variant. (@Amazinite)</li>
+            <li>The Shuttle and Behemoth no longer contact the image border. (@beccabunny)</li>
+            <li>Terraforming 7 will no longer offer on every planet. (@Bladewood)</li>
+            <li>Explicitly stated the source of various missions so that they don't accidentally offer where they shouldn't. (@Amazinite)</li>
+            <li>Pact Recon missions no longer offer on pirate planets. (@Amazinite)</li>
+            <li>The " Drak " government now has the correct swizzle. (@Zitchas)</li>
+            <li>Added a tooltip for "movement:" that was missing. (@oo13)</li>
+            <li>Fighters and drones that are able to jump will now correctly follow the player if left behind by the player. (@tehhowch)</li>
+            <li>The "scram drive" attribute now displays with the same scale as the "jump speed" attribute. (@Amazinite)</li>
+            <li>The Marauder Firebird's shield/hull ratio now matches the Firebird's. (@Arachi-Lover)</li>
+            <li>Fixed a missing null check. (@NomadicVolcano)</li>
+            <li>Fixed a potential divide by zero error in the shipyard/outfitter. (@tehhowch)</li>
+            <li>Fixed a crash that occurred if a mission's carried ship was picked up by a regular NPC. (@tehhowch)</li>
+            <li>Missions will now properly indicate on the map if they have been completed. (@NomadicVolcano)</li>
+            <li>"Mystery Cube" jobs no longer have stations as destinations. (@Anarchist2)</li>
+            <li>"FW Southern Break" now offers after "FW Southern Prisoners - Released" is done, not after "FW Southern Prisoners - Release". (@Amazinite)</li>
+        </ul>
+        <p>Game content:</p>
+        <ul>
+            <li>New content:</li>
+              <li>Various new Remnant missions, ships, and outfits. (@Zitchas, @Amazinite, images from @beccabunny)</li>
+              <li>Various new spaceport missions in human space. (@petervdmeer)</li>
+              <li>Added new hails to alien governments where they were missing some under certain conditions. (@Amazinite)</li>
+              <li>Added new Pug and Heliarch hand to hand weapons. (@Brick63)</li>
+              <li>Added new, larger Coalition shield and hull repair modules used only by the Heliarchs. (@Arachi-Lover, images from @beccabunny)</li>
+              <li>Tribute can now be demanded from the Remnant. (@Zitchas)</li>
+              <li>Added a new Wanderer transport ship that has been retroactively added to the Wanderer campaign. (@Brick63)</li>
+              <li>Added hints to the Free Worlds campaign as to where to go to steal an electron beam, and removed large Navy fleets from Wei as to make it less punishing on average to fly through the system. (@Amazinite)</li>
+              <li>Improved the graphics for various station images and added new ones so that every station in human space is unique. (@beccabunny)</li>
+              <li>Added three stations to Coalition space. (@beccabunny)</li>
+              <li>Added a new person ship. (@LocalGod79)</li>
+              <li>Added variant Archon images so that not all Archons look the same. (@beccabunny)</li>
+              <li>New line of mission in Hai space dealing with human pirate raids. (@Amazinite)</li>
+              <li>Added a new set of friendly civilian hails. (@PaulBlay)</li>
+              <li>Added a new boarding mission for smaller merchant and Syndicate ships. (@beccabunny)</li>
+              <li>Added a new cargo mission in Wanderer space that leads the player to starting the storyline instead of requiring the player to randomly stumble upon it. (@Anarchist2)</li>
+            <li>Missions:</li>
+              <li>The mission Courier 2 now randomly generates its offer dialog as a showcase of this mechanic. (@Naminson)</li>
+              <li>Updated the intro missions from James to include new and updated information about game mechanics. (@Amazinite)</li>
+              <li>Made various minor changes to the Free Worlds campaign, such as the Stack Core and Flamethrower now becoming available to the player regardless of if they helped transport or test them. (@Amazinite)</li>
+              <li>If the player has a jump drive and a hyperdrive installed when going to the Syndicate for a jump drive, they will no longer give you an extra jump drive. (@Amazinite)</li>
+              <li>Should the player have their own jump drive during Free Worlds Reconciliation, the Navy will now provide an extra escort for the unused jump drive. (@AlbertNewton)</li>
+              <li>Removed the Hunted by State missions, as they made playing as a pirate too punishing. (@Amazinite)</li>
+              <li>The "Remnant: Broken Jump Drive" missions can be done in lieu of the "Remnant: Key Stones" missions in order to obtain a Remnant license. (@Zitchas)</li>
+            <li>Balance:</li>
+              <li>Heliarch and Coalition crew now have altered base crew attack and defense stats. (@Tadrix)</li>
+              <li>Gave the Pelican more engine space to better fit its description of being a fast ship. (@Zitchas)</li>
+              <li>Increased the fuel capacity, engine capacity, and speed of the Arrow and Star Queen so that they better compete with other transport ships. (@Zitchas)</li>
+              <li>The Frigate (Mark II) now has atomic engines just like all other Mark II Navy ships. (@Hyugat)</li>
+              <li>Tweak the stats of the Bastion, Mule, and Osprey to better differentiate the roles that each ship plays and make the Mule less powerful. (@Amazinite)</li>
+            <li>Other:</li>
+              <li>Added more variety for hails and pirate ship names. (@Thunderforge)</li>
+              <li>Increased the variety of ships in pirate fleets. (@ZBok)</li>
+              <li>Increased the variety of ships sold on pirate worlds. (@Zitchas)</li>
+              <li>Some Remnant ships now come with a Scram Drive installed instead of a standard Hyperdrive. (@Zitchas)</li>
+              <li>Improved the descriptions of the Marauder ships. (@MageKing17)</li>
+              <li>Gave the laser rifle and security station improved graphics. (@Brick63 and @beccabunny respectively)</li>
+              <li>Efreti outfitters now sell Hyperdrives. (@Arachi-Lover)</li>
+              <li>Demanding tribute from human worlds occupied by the Pug will now send Pug fleets. (@Zitchas)</li>
+              <li>Hai-home will no longer accept bribes, and now requires more reputation to land on. (@Amazinite)</li>
+              <li>Reduced the transparency of the background haze to make it more noticeable. (@Pointedstick)</li>
+              <li>Hai power generators and cooling now have unique graphics instead of being modified human graphics. (@Brick63)</li>
+              <li>The Ember Waste wormholes will now be used by the Remnant. (@Zitchas)</li>
+              <li>Improved the descriptions of Relic and Calda. (@Naminson)</li>
+              <li>The Hai wormhole will now be used by humans. (@Gods-Righthand)</li>
+              <li>Oxyrhynchus can now be attacked in Rim Archaeology without consequence. (@Amazinite)</li>
+              <li>The Ring of Power and Ring of Wisdom graphics have been swapped to reflect the age of the Kimek and Arachi. (@Arachi-Lover)</li>
+              <li>Renamed the Militia Carrier License to the Militia License and added it to the Dreadnought. (@Arachi-Lover)</li>
+        </ul>
+        <p>Game mechanics:</p>
+        <ul>
+            <li>Created an "enforces" government attribute that dictates in which systems the government will scan other ships. (@tehhowch)</li>
+            <li>Uninhabited planets will now have a default security rating of 0. (@Amazinite)</li>
+            <li>Added "maintenance costs" and "operating costs" attributes that allow for an outfit or ship to cost credits daily without needing them to increase crew requirements. (@Amazinite)</li>
+            <li>Conditions for offering/failing/completing missions now support basic math expressions to allow for more complex condition requirements. (@tehhowch)</li>
+            <li>The status overlay will now display the disabled threshold of a ship just as the HUD does. (@Amazinite)</li>
+            <li>Weapons that consume ammunition are now able to consume a variable amount. (@Amazinite)</li>
+            <li>Flagship crew info can now be accessed as conditions. (@Fzzr)</li>
+            <li>A government's "display name" can now be customized. (@tehhowch)</li>
+            <li>Fighters and drones without a ship to carry them will no longer be automatically sold upon departure. (@petervdmeer, @tehhowch)</li>
+            <li>Improved the calculation of the number of jumps remaining for escorts. (@oo13)</li>
+            <li>Injured escorts will now stick near the player's flagship in an attempt to survive. (@tehhowch)</li>
+            <li>Added support for nested phrase interpolation to lay the groundwork for future translations. (@oo13)</li>
+            <li>Added support for add/remove syntax for News. (@tehhowch)</li>
+            <li>The player's flagship can be ordered to stop by combining the Shift key and the "BACK" command. (@petervdmeer)</li>
+        </ul>
+        <p>User interface:</p>
+        <ul>
+            <li>Added a new preference that allows the starfield to be toggled. (@Disiuze)</li>
+            <li>The fast-forward key can now be configured in preferences. (@bjidar-bg)</li>
+            <li>Conversation panels now require a new key press for each choice or on exit. (@tehhowch)</li>
+            <li>The total outfit space on a ship will now update with installed outfits expansions. (@Amazinite)</li>
+        </ul>
+        <p>Under the hood:</p>
+        <ul>
+            <li>Fixed formatting errors in the license file. (@Zitchas)</li>
+            <li>The FW flamethrower missions, being optional, have been moved to the side plots file. (@Bladewood)</li>
+            <li>Error traces will now provide the line number on which they occurred. (@tehhowch)</li>
+            <li>Consolidated input-handling into the Engine class. (@petervdmeer)</li>
+            <li>Allow passing CXX flags from the build environment. (@pkubaj)</li>
+            <li>Extracted SDL window setup and interaction into a new class to promote single-responsibility. (@AdamKauffman)</li>
+            <li>The error log file is always closed when the game exits. (@tehhowch)</li>
+            <li>Added sanity checks to the GitHub contribution pipeline (@tehhowch, @MCOfficer)</li>
+            <li>Created an AppImage build pipeline for releases (@MCOfficer)</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.9.10" date="2019-09-28">
       <description>
         <p>Bug fixes:</p>
